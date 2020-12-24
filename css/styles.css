@@ -459,6 +459,9 @@ margin-top:80px;
 .bg-darkbmg {
   background-color:  #f3f0db !important;
 }
+.bg-white {
+  background: #ffffff !important;
+}
 .threebox {
       width: 31%;
     float: left;
@@ -858,12 +861,17 @@ Intro
 Features-stack
 ========================================================================== */
 .features {
-  position: relative; }
+  position: relative;overflow: hidden; }
   .features p {
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+    color: #000000;}
   .features h3 {
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px 0;    color: #003318; 
+    font-size: 7rem;    font-family: 'Playfair Display', serif;
+  }
   .features span.icon {
     font-size: 35px;
     color: #FF5274;
@@ -874,6 +882,9 @@ Features-stack
     padding: 6px 0 0 0;
     margin-right: 20px;
     width: 35px; }
+    .features .feature-icon img {
+width: 100%;
+    }
   .features .feature-content {
     display: inline-block;
     width: 75%; }
@@ -895,25 +906,34 @@ Features-stack
     padding-bottom: 0px;
     border-bottom: none; }
   .features .ipad-wrap {
-    width: 706px;
-    height: 1002px;
-    background: url("../img/ipad-device.png") no-repeat center center;
-    z-index: 1; }
+    width:900px;
+    height: auto;
+    
+    z-index: 1;
+    background-size:contain;  }
   .features .iphone-wrap {
     width: 304px;
     height: 620px;
-    background: url("../img/iphone6.png") no-repeat center center;
+     
     position: absolute;
     left: 530px;
     bottom: 129px;
-    z-index: 2; }
+    z-index: 2; 
+    background-size:contain; }
   .features .device-showcase {
-    position: absolute;
-    bottom: -365px;
-    right: 61%; }
+  position: absolute;
+    bottom: 0px;
+    right: 50%; }
 
 .features .responsive-feature-img, .features-extra .responsive-feature-img {
   display: none; }
+  .features h5 {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    color: #63d100;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
 
 .devices {
   position: relative; }
@@ -1056,13 +1076,14 @@ Features-stack
       width: 82px;
       height: auto; }
   .testimonial-slider h2 {
-    color: #fff;
-    font-size: 40px;
+        color: #fff;
+    font-size: 52px;
     font-weight: 300;
     font-style: italic;
-    margin: 30px 0; }
+    margin: 30px 0;
+    font-style: normal; }
   .testimonial-slider p {
-    color: #ACB1B4;
+        color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 2px; }
 
@@ -1083,8 +1104,9 @@ Sign up form
   text-align: left;
   position: relative; }
   .sign-up .signup-form .form-input-group i {
-    color: #FF5274;
-    font-size: 14px; }
+    color: #55b205;
+    font-size: 14px;
+}
   .sign-up .signup-form .form-input-group i:after {
     content: "";
     height: 30px;
@@ -1104,7 +1126,7 @@ Sign up form
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     margin-left: 20px; }
-  .sign-up .signup-form .form-input-group i.fa-envelope {
+  .sign-up .signup-form .form-input-group i.fa-envelope, .sign-up .signup-form .form-input-group i.fa-user, .sign-up .signup-form .form-input-group i.fa-phone {
     font-size: 14px;
     position: absolute;
     top: 50%;
@@ -1113,6 +1135,12 @@ Sign up form
             transform: translateY(-50%);
     margin-left: 20px; }
   .sign-up .signup-form .form-input-group input {
+    padding-left: 68px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none; }
+    .sign-up .signup-form .form-input-group textarea {
     padding-left: 68px;
     width: 100%;
     height: 100%;
@@ -1132,13 +1160,14 @@ To top
 ========================================================================== */
 .to-top {
   height: 60px;
-  background-color: #495061; }
+    background-color: #ffffff; }
   .to-top .to-top-wrap {
-    height: 60px;
+       height: 60px;
     width: 70px;
     position: absolute;
     right: 0;
-    text-align: center; }
+    text-align: center;
+    background: #63d100; }
     .to-top .to-top-wrap a {
       display: block;
       width: 100%;
@@ -1157,7 +1186,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #3D4351;
+  background-color: #031b0e;
   position: relative; }
   footer p {
     color: #ACB1B4;
@@ -1187,7 +1216,7 @@ footer {
     margin: 0 2px; }
   footer .social-share {
     position: absolute;
-    background-color: #373D4A;
+    background-color:#031b0e;
     right: 0;
     width: 40%;
     height: 100%;
