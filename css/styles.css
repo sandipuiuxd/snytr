@@ -382,6 +382,19 @@ Hero
   width: auto;height: auto;background-size: cover;animation-iteration-count: infinite;
     z-index: -1;
 }
+.herobgab {
+  animation: grow 120s linear forwards;
+  opacity: 1;background: url("../img/aboutusimg.jpg") center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;bottom: 0;
+  width: auto;height: auto;background-size: cover;animation-iteration-count: infinite;
+    z-index: -1;
+}
+.innerpagebg {
+  background: rgb(66 103 0 / 24%);
+}
 
 @keyframes grow {
   0% {
@@ -403,6 +416,31 @@ Hero
     float: left;
     position: relative;
 
+}
+.innerpg .sldrbox {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    height: 40vh;
+    float: left;
+    position: relative;
+}
+.innerpg .sldrbox h1 {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  width: auto;
+  left: 0;
+  right: 0;
+  bottom:5.5vh;
+  text-align:center;
+  font-size: 6vw;text-shadow: 1px 1px 29px rgba(0, 0, 0, 0.2);
+  color: #000
+}
+.innerpg.hero {
+    min-height: 50vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
 }
 .sldrbox h1 {
   font-family: 'Playfair Display', serif;
@@ -557,7 +595,7 @@ display: inline-block;
      font-family: 'Playfair Display', serif;
     color: #003318;
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 800;    letter-spacing: 1px;
 }
 .poimg {
   width: 250px;
@@ -574,7 +612,7 @@ display: inline-block;
   position: absolute;
   left: 0;
   right: 0;
-  top: 20px;
+  top: 20px;    letter-spacing: 1px;
 }
 .orgco .poimg {
     bottom: -94px;
@@ -950,10 +988,62 @@ width: 100%;
     position: absolute;
     width: 916px;
     height: 540px;
-    background: url("../img/macbook-pro.png") no-repeat center center;
-    top: 114px;
+    background: url(../img/baturaloil.png) no-repeat center center;
+    top: 0px;
     z-index: 4;
-    left: 50%; }
+    left: 40%;
+    background-size: contain;
+}
+
+.feature-list h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #3D4351;font-family: 'Playfair Display', serif;
+}
+
+.feature-list p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgb(1 34 2 / 95%);
+    padding-bottom: 20px;
+    letter-spacing: 0.1rem;
+}
+.inabut{
+  padding-top: 130px;
+    margin-top: 90px;
+}
+.mb20 {
+  margin-bottom: 40px;
+}
+.mapin img {
+  width: 100%;
+}
+.contact-page {
+padding-top: 150px;
+}
+.contact-page .contact-form .contact-form-page .contact-form .contact-submit input {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border-radius: 0;
+    border: none;
+    background-color: #003318;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: .2em;
+    font-weight: 600;
+}
+.contact-form input, .contact-form textarea {
+    border-radius: 0;
+    border: 1px solid #ebebeb;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    padding-left: 25px;
+}
 
 /* ==========================================================================
 .hero-strip
@@ -1182,6 +1272,37 @@ To top
   .to-top .row {
     position: relative; }
 
+.instasection {
+ 
+}
+.instasection h2 {
+  font-family: 'Playfair Display', serif;
+}
+.instasection p {
+  font-family: "Open Sans", sans-serif;
+}
+.pb60 {
+  padding-bottom: 60px;
+}
+.instapost {
+  width: 100%;
+  display: inline-block;
+}
+.instabutton {
+      padding: 16px 45px;
+    background: #031b0e;
+    font-size: 32px;
+    color: #55b205;
+}
+.instapost ul li  {
+  float: left;
+  list-style: none;
+  display: inline-block;
+  width: 16.665%;
+}
+.instapost ul li img {
+  width:100%; 
+}
 /* ==========================================================================
 Footer
 ========================================================================== */
@@ -1245,7 +1366,17 @@ footer {
       border-radius: 3px;
       font-size: 22px;
       display: inline-block;
+      text-align: center; margin-right: 20px; }
+      footer .social-share a.instagram-share {
+      height: 60px;
+      width: 60px;
+        background-color: #ff4473;
+      border-radius: 3px;
+      font-size: 22px;
+      display: inline-block;
       text-align: center; }
+      footer .social-share a.instagram-share:hover, footer .social-share a.instagram-share:focus {
+          background-color: #b22045; }
     footer .social-share a {
       color: #fff; }
     footer .social-share a:hover {
@@ -1254,343 +1385,4 @@ footer {
       margin-top: 20px; }
   footer .footer-links {
     margin: 120px 0 120px 0; }
-
-/* ==========================================================================
-Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
-========================================================================== */
-@font-face {
-  font-family: 'et-line';
-  src: url("../fonts/et-line.eot");
-  src: url("../fonts/et-line.eot?#iefix") format("embedded-opentype"), url("../fonts/et-line.woff") format("woff"), url("../fonts/et-line.ttf") format("truetype"), url("../fonts/et-line.svg#et-line") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-  font-family: 'et-line';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block; }
-
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-mobile, .icon-laptop, .icon-desktop, .icon-tablet, .icon-phone, .icon-document, .icon-documents, .icon-search, .icon-clipboard, .icon-newspaper, .icon-notebook, .icon-book-open, .icon-browser, .icon-calendar, .icon-presentation, .icon-picture, .icon-pictures, .icon-video, .icon-camera, .icon-printer, .icon-toolbox, .icon-briefcase, .icon-wallet, .icon-gift, .icon-bargraph, .icon-grid, .icon-expand, .icon-focus, .icon-edit, .icon-adjustments, .icon-ribbon, .icon-hourglass, .icon-lock, .icon-megaphone, .icon-shield, .icon-trophy, .icon-flag, .icon-map, .icon-puzzle, .icon-basket, .icon-envelope, .icon-streetsign, .icon-telescope, .icon-gears, .icon-key, .icon-paperclip, .icon-attachment, .icon-pricetags, .icon-lightbulb, .icon-layers, .icon-pencil, .icon-tools, .icon-tools-2, .icon-scissors, .icon-paintbrush, .icon-magnifying-glass, .icon-circle-compass, .icon-linegraph, .icon-mic, .icon-strategy, .icon-beaker, .icon-caution, .icon-recycle, .icon-anchor, .icon-profile-male, .icon-profile-female, .icon-bike, .icon-wine, .icon-hotairballoon, .icon-globe, .icon-genius, .icon-map-pin, .icon-dial, .icon-chat, .icon-heart, .icon-cloud, .icon-upload, .icon-download, .icon-target, .icon-hazardous, .icon-piechart, .icon-speedometer, .icon-global, .icon-compass, .icon-lifesaver, .icon-clock, .icon-aperture, .icon-quote, .icon-scope, .icon-alarmclock, .icon-refresh, .icon-happy, .icon-sad, .icon-facebook, .icon-twitter, .icon-googleplus, .icon-rss, .icon-tumblr, .icon-linkedin, .icon-dribbble {
-  font-family: 'et-line';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block; }
-
-.icon-mobile:before {
-  content: "\e000"; }
-
-.icon-laptop:before {
-  content: "\e001"; }
-
-.icon-desktop:before {
-  content: "\e002"; }
-
-.icon-tablet:before {
-  content: "\e003"; }
-
-.icon-phone:before {
-  content: "\e004"; }
-
-.icon-document:before {
-  content: "\e005"; }
-
-.icon-documents:before {
-  content: "\e006"; }
-
-.icon-search:before {
-  content: "\e007"; }
-
-.icon-clipboard:before {
-  content: "\e008"; }
-
-.icon-newspaper:before {
-  content: "\e009"; }
-
-.icon-notebook:before {
-  content: "\e00a"; }
-
-.icon-book-open:before {
-  content: "\e00b"; }
-
-.icon-browser:before {
-  content: "\e00c"; }
-
-.icon-calendar:before {
-  content: "\e00d"; }
-
-.icon-presentation:before {
-  content: "\e00e"; }
-
-.icon-picture:before {
-  content: "\e00f"; }
-
-.icon-pictures:before {
-  content: "\e010"; }
-
-.icon-video:before {
-  content: "\e011"; }
-
-.icon-camera:before {
-  content: "\e012"; }
-
-.icon-printer:before {
-  content: "\e013"; }
-
-.icon-toolbox:before {
-  content: "\e014"; }
-
-.icon-briefcase:before {
-  content: "\e015"; }
-
-.icon-wallet:before {
-  content: "\e016"; }
-
-.icon-gift:before {
-  content: "\e017"; }
-
-.icon-bargraph:before {
-  content: "\e018"; }
-
-.icon-grid:before {
-  content: "\e019"; }
-
-.icon-expand:before {
-  content: "\e01a"; }
-
-.icon-focus:before {
-  content: "\e01b"; }
-
-.icon-edit:before {
-  content: "\e01c"; }
-
-.icon-adjustments:before {
-  content: "\e01d"; }
-
-.icon-ribbon:before {
-  content: "\e01e"; }
-
-.icon-hourglass:before {
-  content: "\e01f"; }
-
-.icon-lock:before {
-  content: "\e020"; }
-
-.icon-megaphone:before {
-  content: "\e021"; }
-
-.icon-shield:before {
-  content: "\e022"; }
-
-.icon-trophy:before {
-  content: "\e023"; }
-
-.icon-flag:before {
-  content: "\e024"; }
-
-.icon-map:before {
-  content: "\e025"; }
-
-.icon-puzzle:before {
-  content: "\e026"; }
-
-.icon-basket:before {
-  content: "\e027"; }
-
-.icon-envelope:before {
-  content: "\e028"; }
-
-.icon-streetsign:before {
-  content: "\e029"; }
-
-.icon-telescope:before {
-  content: "\e02a"; }
-
-.icon-gears:before {
-  content: "\e02b"; }
-
-.icon-key:before {
-  content: "\e02c"; }
-
-.icon-paperclip:before {
-  content: "\e02d"; }
-
-.icon-attachment:before {
-  content: "\e02e"; }
-
-.icon-pricetags:before {
-  content: "\e02f"; }
-
-.icon-lightbulb:before {
-  content: "\e030"; }
-
-.icon-layers:before {
-  content: "\e031"; }
-
-.icon-pencil:before {
-  content: "\e032"; }
-
-.icon-tools:before {
-  content: "\e033"; }
-
-.icon-tools-2:before {
-  content: "\e034"; }
-
-.icon-scissors:before {
-  content: "\e035"; }
-
-.icon-paintbrush:before {
-  content: "\e036"; }
-
-.icon-magnifying-glass:before {
-  content: "\e037"; }
-
-.icon-circle-compass:before {
-  content: "\e038"; }
-
-.icon-linegraph:before {
-  content: "\e039"; }
-
-.icon-mic:before {
-  content: "\e03a"; }
-
-.icon-strategy:before {
-  content: "\e03b"; }
-
-.icon-beaker:before {
-  content: "\e03c"; }
-
-.icon-caution:before {
-  content: "\e03d"; }
-
-.icon-recycle:before {
-  content: "\e03e"; }
-
-.icon-anchor:before {
-  content: "\e03f"; }
-
-.icon-profile-male:before {
-  content: "\e040"; }
-
-.icon-profile-female:before {
-  content: "\e041"; }
-
-.icon-bike:before {
-  content: "\e042"; }
-
-.icon-wine:before {
-  content: "\e043"; }
-
-.icon-hotairballoon:before {
-  content: "\e044"; }
-
-.icon-globe:before {
-  content: "\e045"; }
-
-.icon-genius:before {
-  content: "\e046"; }
-
-.icon-map-pin:before {
-  content: "\e047"; }
-
-.icon-dial:before {
-  content: "\e048"; }
-
-.icon-chat:before {
-  content: "\e049"; }
-
-.icon-heart:before {
-  content: "\e04a"; }
-
-.icon-cloud:before {
-  content: "\e04b"; }
-
-.icon-upload:before {
-  content: "\e04c"; }
-
-.icon-download:before {
-  content: "\e04d"; }
-
-.icon-target:before {
-  content: "\e04e"; }
-
-.icon-hazardous:before {
-  content: "\e04f"; }
-
-.icon-piechart:before {
-  content: "\e050"; }
-
-.icon-speedometer:before {
-  content: "\e051"; }
-
-.icon-global:before {
-  content: "\e052"; }
-
-.icon-compass:before {
-  content: "\e053"; }
-
-.icon-lifesaver:before {
-  content: "\e054"; }
-
-.icon-clock:before {
-  content: "\e055"; }
-
-.icon-aperture:before {
-  content: "\e056"; }
-
-.icon-quote:before {
-  content: "\e057"; }
-
-.icon-scope:before {
-  content: "\e058"; }
-
-.icon-alarmclock:before {
-  content: "\e059"; }
-
-.icon-refresh:before {
-  content: "\e05a"; }
-
-.icon-happy:before {
-  content: "\e05b"; }
-
-.icon-sad:before {
-  content: "\e05c"; }
-
-.icon-facebook:before {
-  content: "\e05d"; }
-
-.icon-twitter:before {
-  content: "\e05e"; }
-
-.icon-googleplus:before {
-  content: "\e05f"; }
-
-.icon-rss:before {
-  content: "\e060"; }
-
-.icon-tumblr:before {
-  content: "\e061"; }
-
-.icon-linkedin:before {
-  content: "\e062"; }
-
-.icon-dribbble:before {
-  content: "\e063"; }
+ 

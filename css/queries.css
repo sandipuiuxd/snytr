@@ -100,6 +100,69 @@ header .header-nav {
 }
 /* Responsive nav kicks in */
 @media screen and (max-width:991px) {
+	.orgco .poimg {
+    bottom: 0px;
+    left: 0;
+    right: auto;
+    height: auto;
+    width: 100%;
+}
+.charcoalg .poimg {
+    bottom: 10px;
+    left: 0;
+    right: auto;
+    height: auto;
+    width: 100%;
+}
+.blueberryg .poimg {
+    bottom:0px;
+    left: 0;
+    right: auto;
+    height: auto;
+    width: 100%;
+}
+.saffrong .poimg {
+    bottom: 0px;
+    left: 0;
+    right: auto;
+    height: auto;
+    width: 100%;
+}
+.roseg .poimg {
+    bottom: 0px;
+    left: 0;
+    right: auto;
+    height: auto;
+    width: 100%;
+}
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3  {
+     
+    font-size: 30px;
+    
+    
+}
+.ingredintintop {
+    position: relative;
+    display: inline-block;
+    width: 28%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 310px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.ingredintinbottom {
+    position: relative;
+    display: inline-block;
+    width: 28%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 310px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
 	header {
 		width: 90%;
 		padding-left: 25px;
@@ -315,7 +378,162 @@ header .header-nav {
 		margin: 120px 0 120px 0;
 	}
 
+
+@media screen and (max-width: 768px) {
+	.orgco .poimg {
+    bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+.charcoalg .poimg {
+    bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+.blueberryg .poimg {
+   bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+.saffrong .poimg {
+   bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+.roseg .poimg {
+   bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 40%;
+}
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
+    font-size: 48px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 60px;
+}
+.ingredintintop {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.ingredintinbottom {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.threebox {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 1%;
+    padding: 0px 0px;
+    overflow: hidden;
+    padding-top: 170px;
+}
+.textbox {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    left: 25px;
+}
+.intro  {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.btnbox {
+    width: 150px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    left: 29px;
+}
+.instapost ul li {
+    float: left;
+    list-style: none;
+    display: inline-block;
+    width: 50%;
+}
+.imgbox {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    left: 0px;
+}
+.facewash .imgbox {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    left: 0px;
+}
+.shampoo .imgbox {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    left: 0px;
+}
+}
+
+
 	@media screen and (max-width:640px) {
+		.roundanimation {
+    position: relative;
+    overflow: hidden;
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    margin-top: 35px;
+}
+.roundedimages {
+    -webkit-animation: loading 60s infinite linear;
+    animation: loading 60s infinite linear;
+    border-radius: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: auto;
+}
+.middlelogo {
+    position: absolute;
+    width: 140px;
+    height: auto;
+    top: 120px;
+    bottom: 0;
+    z-index: 99;
+    left: 96px;
+}
 		footer ul.footer-group {
 			border-top: none;
 		}
@@ -356,6 +574,9 @@ header .header-nav {
 		.hero h1 {
 			font-size: 50px;
 		}
+		.innerpg .sldrbox h1 {
+    font-size: 50px;
+}
 
 		.btn-margin-right {
 			margin-right: 0px;
