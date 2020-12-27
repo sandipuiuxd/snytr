@@ -90,6 +90,15 @@ html[xmlns] .flexslider .slides {
 .flexslider .slides img {
   height: auto;
 }
+
+
+
+.detailsldr .flexslider .slides img {
+  height: 600px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
 .flex-viewport {
   max-height: 2000px;
   -webkit-transition: all 1s ease;
@@ -104,6 +113,7 @@ html[xmlns] .flexslider .slides {
 .carousel li {
   margin-right: 5px;
 }
+
 .flex-direction-nav {
   *height: 0;
 }
@@ -157,7 +167,65 @@ html[xmlns] .flexslider .slides {
 .flexslider:hover .flex-direction-nav .flex-next:hover {
   opacity: 1;
 }
-.flex-direction-nav .flex-disabled {
+
+
+
+.detailsldr .flex-direction-nav {
+  *height: 0;
+}
+.detailsldr .flex-direction-nav a {
+  text-decoration: none;
+  display: block;
+  width: 40px;
+  height: 60px;
+  margin: -30px 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  overflow: hidden;
+  opacity: 0;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.detailsldr .flex-direction-nav a:before {
+   
+font-size: 60px;
+    display: inline-block;
+    content: '<';
+    color: #003318;
+    font-weight: 900; 
+    font-family: 'Playfair Display', serif;
+}
+.detailsldr .flex-direction-nav a.flex-next:before {
+  content: '>';
+}
+.detailsldr .flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.detailsldr .flex-direction-nav .flex-next {
+  right: -50px;
+  text-align: right;
+}
+.detailsldr .flexslider:hover .flex-direction-nav .flex-prev {
+  opacity: 0.7;
+  left: 10px;
+}
+.detailsldr .flexslider:hover .flex-direction-nav .flex-prev:hover {
+  opacity: 1;
+}
+.detailsldr .flexslider:hover .flex-direction-nav .flex-next {
+  opacity: 0.7;
+  right: 10px;
+}
+.detailsldr .flexslider:hover .flex-direction-nav .flex-next:hover {
+  opacity: 1;
+}
+.detailsldr .flex-direction-nav .flex-disabled {
   opacity: 0 !important;
   filter: alpha(opacity=0);
   cursor: default;

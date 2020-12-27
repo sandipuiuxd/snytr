@@ -504,6 +504,99 @@ header .header-nav {
 
 
 	@media screen and (max-width:640px) {
+		.sldrbox {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    height: 50vh;
+    float: left;
+    position: relative;
+}
+.hero {
+    min-height: 40vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.fullnamebox {
+    width: 100%;
+    display: inline-block;
+    margin: 15px 0;
+    float: left;
+    text-align: center;
+     
+}
+.testimonial-slider {
+	display: none;
+}
+.fullnamebox h2 {
+    font-family: 'Playfair Display', serif;
+    color: #003318;
+    font-size: 28px;
+}
+.fullnamebox h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #9f9f9f;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 -10px;
+    font-size: 16px;
+}
+.bigname {
+    font-family: 'Playfair Display', serif;
+    color: #003318;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.productnames {
+    text-align: left;
+    font-size: 18px;
+    line-height: 40px;
+    position: relative;
+    z-index: 99;
+}
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
+    font-size: 38px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 60px;
+}
+.ingredintinbottom {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 190px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.ingredintintop {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin: 15px 1%;
+    text-align: center;
+    height: 190px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
+    font-size: 28px;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.orgco .poimg, .roseg .poimg, .saffrong .poimg, .charcoalg .poimg, .blueberryg .poimg {
+    bottom: 0px;
+    left: auto;
+    right: 0;
+    height: auto;
+    width: 50%;
+}
+
 		.roundanimation {
     position: relative;
     overflow: hidden;

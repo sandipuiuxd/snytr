@@ -360,6 +360,131 @@ Hero
   
   background-size: cover;
   position: relative; overflow: hidden;}
+ .hero.innerpages {
+    min-height: 130px;
+    background-color: #003318;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.imgboxc {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border: 2px solid #cacaca;
+}
+.imgboxc img {
+  height: 600px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  
+}
+.prductdetail h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #003318;
+    margin-bottom: 18px;
+}
+.prductdetail {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding-left: 20px;
+}
+.prductdetail h5 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #6e6e6e;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+
+}
+ul.sociallinkshare {
+  width: 100%;
+  display: inline-block;
+}
+ul.sociallinkshare li {
+  list-style: none;display: inline-block;
+  float: left;
+  margin:10px;
+}
+ul.sociallinkshare li a {
+    border: 1px solid #cacaca;
+    width: 45px;
+    float: left;
+    text-align: center;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul.sociallinkshare li.first {
+      margin-left: 0px;
+    line-height: 40px;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: -6px;
+}
+ul.sociallinkshare li.fbo{
+     margin-left: 0px; 
+}
+.enquirybox a.whtsaapp {
+      background: #003318;
+    padding: 0 20px;
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.enquirybox a.call {
+      background: #003318;
+    padding: 0 20px;
+    float: left;
+    display: inline-block;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: auto;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.enquirybox a svg {
+      margin-top: 0px;
+    margin-bottom: -4px;
+    margin-right: 6px;
+    margin-left: -5px;
+}
+ 
+.prductdetail h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #63d100;
+    font-weight: 700;
+}
+.prductdetail h4 {
+    font-size: 14px;
+    color: red;
+    margin-top: -12px;
+}
+.productsmoredetial {
+    padding: 120px 0 150px;
+    width: 100%;
+    display: inline-block;
+}
   .hero .down-arrow a {
     color: #fff; }
   .hero h1 {
@@ -417,6 +542,30 @@ Hero
     position: relative;
 
 }
+.imgboc  img {
+  width: 100%;
+
+}
+.contactuspage { text-align:center;  }
+.contactuspage p {
+      font-family: "Open Sans", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    margin-top: 130px;
+}
+.contactuspage h3 {
+  margin-top: 60px
+}
+.contactuspage h5 {
+      font-family: "Open Sans", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform: none;
+}
+.contactuspage h2 {font-family: 'Playfair Display', serif;}
 .innerpg .sldrbox {
     width: 100%;
     display: inline-block;
@@ -433,7 +582,7 @@ Hero
   right: 0;
   bottom:5.5vh;
   text-align:center;
-  font-size: 6vw;text-shadow: 1px 1px 29px rgba(0, 0, 0, 0.2);
+  font-size:4vw;text-shadow: 1px 1px 29px rgba(0, 0, 0, 0.2);
   color: #000
 }
 .innerpg.hero {
@@ -1354,7 +1503,7 @@ footer {
       font-size: 22px;
       display: inline-block;
       text-align: center;
-      margin-right: 20px; }
+      margin-right: 20px;padding-top: 15px; }
     footer .social-share a.twitter-share:hover, footer .social-share a.twitter-share:focus {
       background-color: #1590BF; }
     footer .social-share a.facebook-share:hover, footer .social-share a.facebook-share:focus {
@@ -1366,7 +1515,7 @@ footer {
       border-radius: 3px;
       font-size: 22px;
       display: inline-block;
-      text-align: center; margin-right: 20px; }
+      text-align: center; margin-right: 20px;padding-top: 15px; }
       footer .social-share a.instagram-share {
       height: 60px;
       width: 60px;
@@ -1374,7 +1523,7 @@ footer {
       border-radius: 3px;
       font-size: 22px;
       display: inline-block;
-      text-align: center; }
+      text-align: center;padding-top: 15px; }
       footer .social-share a.instagram-share:hover, footer .social-share a.instagram-share:focus {
           background-color: #b22045; }
     footer .social-share a {
