@@ -1,47 +1,24 @@
 @media screen and (max-width:1440px) {
 .threebox {
-    width: 31.3%;
+      width: 23%;
     float: left;
     display: inline-block;
     position: relative;
-    height: 500px;
+    height: auto;
     background-color: #fff;
     border-radius: 12px;
     margin: 1%;
-    padding: 20px 40px;
+    padding: 0px;
     overflow: hidden;
 }
-.ingredintintop {
-    position: relative;
-    display: inline-block;
-    width: 18%;
-    float: left;
-    margin: 15px 1%;
-    
-    text-align: center;
-    height: 240px;
-    margin-bottom: 150px;
-    margin-top: 80px;
-}
-.ingredintinbottom {
-    position: relative;
-    display: inline-block;
-    width: 18%;
-    float: left;
-    margin: 15px 1%;
-     
-    text-align: center;
-    height: 240px;
-    margin-bottom: 150px;
-    margin-top: 80px;
-}
+   
 }
 @media screen and (max-width:1280px) {
 .ingredintintop {
     position: relative;
     display: inline-block;
     width: 28%;
-    float: left;
+    float: none;
     margin: 15px 1%;
     text-align: center;
     height: 310px;
@@ -60,15 +37,16 @@
     margin-top: 80px;
 }
 .threebox {
-    width: 31%;
+    
+        width: 31%;
     float: left;
     display: inline-block;
     position: relative;
-    height: 460px;
+    height: auto;
     background-color: #fff;
     border-radius: 12px;
     margin: 1%;
-    padding: 20px 40px;
+    padding: 0px;
     overflow: hidden;
 }
 
@@ -100,68 +78,28 @@ header .header-nav {
 }
 /* Responsive nav kicks in */
 @media screen and (max-width:991px) {
-	.orgco .poimg {
-    bottom: 0px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
-.charcoalg .poimg {
-    bottom: 10px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
-.blueberryg .poimg {
-    bottom:0px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
-.saffrong .poimg {
-    bottom: 0px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
-.roseg .poimg {
-    bottom: 0px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
-.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3  {
+	 
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3, .pineple h3, .cherry h3  {
      
     font-size: 30px;
     
     
 }
 .ingredintintop {
-    position: relative;
+   position: relative;
     display: inline-block;
-    width: 28%;
-    float: left;
+    width: 30%;
+    float: none;
     margin: 15px 1%;
     text-align: center;
     height: 310px;
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.ingredintinbottom {
-    position: relative;
-    display: inline-block;
-    width: 28%;
-    float: left;
-    margin: 15px 1%;
-    text-align: center;
-    height: 310px;
-    margin-bottom: 0px;
-    margin-top: 20px;
+ .poimg {
+    width: 100%;
+    max-width: 310px;
+    margin-top: 25px;
 }
 	header {
 		width: 90%;
@@ -380,71 +318,10 @@ header .header-nav {
 
 
 @media screen and (max-width: 768px) {
-	.orgco .poimg {
-    bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 40%;
-}
-.charcoalg .poimg {
-    bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 40%;
-}
-.blueberryg .poimg {
-   bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 40%;
-}
-.saffrong .poimg {
-   bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 40%;
-}
-.roseg .poimg {
-   bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 40%;
-}
-.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
-    font-size: 48px;
-    text-align: left;
-    padding-left: 25px;
-    padding-top: 60px;
-}
-.ingredintintop {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    float: left;
-    margin: 15px 1%;
-    text-align: center;
-    height: 250px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-}
-.ingredintinbottom {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    float: left;
-    margin: 15px 1%;
-    text-align: center;
-    height: 250px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-}
+	   
 .threebox {
-    width: 100%;
+    width: 48%;
+    
     float: left;
     display: inline-block;
     position: relative;
@@ -452,27 +329,15 @@ header .header-nav {
     background-color: #fff;
     border-radius: 12px;
     margin: 1%;
-    padding: 0px 0px;
+    padding: 0px;
     overflow: hidden;
-    padding-top: 170px;
 }
-.textbox {
-    position: absolute;
-    top: 0;
-    z-index: 9;
-    left: 25px;
-}
+ 
 .intro  {
 	padding-left: 25px;
 	padding-right: 25px;
 }
-.btnbox {
-    width: 150px;
-    float: left;
-    position: absolute;
-    top: 120px;
-    left: 29px;
-}
+ 
 .instapost ul li {
     float: left;
     list-style: none;
@@ -504,6 +369,19 @@ header .header-nav {
 
 
 	@media screen and (max-width:640px) {
+        .threebox {
+    width: 100%;
+     
+    float: left;
+    display: inline-block;
+    position: relative;
+    height: auto;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 1%;
+    padding: 0px;
+    overflow: hidden;
+}
 		.sldrbox {
     width: 100%;
     display: inline-block;
@@ -556,7 +434,7 @@ header .header-nav {
     position: relative;
     z-index: 99;
 }
-.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3, .pineple h3, .cherry h3 {
     font-size: 38px;
     text-align: left;
     padding-left: 25px;
@@ -583,19 +461,8 @@ header .header-nav {
     height: 190px;
     margin-bottom: 0px;
     margin-top: 20px;
-}.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3 {
-    font-size: 28px;
-    text-align: left;
-    padding-left: 25px;
-    padding-top: 30px;
-}
-.orgco .poimg, .roseg .poimg, .saffrong .poimg, .charcoalg .poimg, .blueberryg .poimg {
-    bottom: 0px;
-    left: auto;
-    right: 0;
-    height: auto;
-    width: 50%;
-}
+} 
+ 
 
 		.roundanimation {
     position: relative;

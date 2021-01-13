@@ -610,33 +610,18 @@ ul.sociallinkshare li.fbo{
     overflow: hidden;
 }
 .ingredintintop {
-position: relative;
-display: inline-block;
-width: 18%;
-float: left;
-margin: 15px 1%;
-background: #ffffff;
-text-align:center; 
-height: 280px;
-margin-bottom: 150px;
-margin-top:80px;
-
-
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    float: none;
+    margin: 15px 2%;
+    text-align: center;
+    height: 280px;
+    margin-bottom: 150px;
+    margin-top: 80px;
+    border-radius: 20px;    padding-top: 20px;
 }
-.ingredintinbottom{
-  position: relative;
-  display: inline-block;
-  width: 18%;
-  float: left;
-  margin: 15px 1%;
-  background: #ffffff;
-  text-align:center; 
-  height: 280px;
-  margin-bottom: 150px;
-  margin-top:80px;
 
-
-}
 .bg-darkb {
   background-color:  #e1f3db !important;
 }
@@ -650,37 +635,26 @@ margin-top:80px;
   background: #ffffff !important;
 }
 .threebox {
-      width: 31%;
+        width: 23%;
     float: left;
     display: inline-block;
     position: relative;
-    height: 580px;
+    height: auto;
     background-color: #fff;
     border-radius: 12px;
     margin: 1%;
-    padding: 20px 40px;    overflow: hidden;
+    padding: 0px;
+    overflow: hidden;
 }
 .imgbox {
-        position: absolute;
-    bottom: -111px;
-    right: -11px;
-    z-index: 9;
-    left: -40px;
+        
 
 }
 .facewash .imgbox {
-    position: absolute;
-    bottom: -111px;
-    right: -151px;
-    z-index: 9;
-    left: 40px;
+     
 }
 .shampoo .imgbox {
-    position: absolute;
-    bottom: -111px;
-    right: -151px;
-    z-index: 9;
-    left: 40px;
+    
 }
 .soapimg {
 width: 100%;
@@ -688,19 +662,21 @@ width: 100%;
 
 }
 .textbox {
-
+padding: 5px 25px;
 }
 .productnames {
 text-align: left;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;position: relative;
     z-index: 99;
 }
 .btnbox {
-width: 150px;
+width: 100%;
+max-width: 200px;
     float: left;
     position: relative;
     z-index: 99;
+    padding: 5px 25px;
 }
 .pd10 {
   display: inline-block;
@@ -743,110 +719,96 @@ display: inline-block;
 .bigname {
      font-family: 'Playfair Display', serif;
     color: #003318;
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 800;    letter-spacing: 1px;
 }
 .poimg {
-  width: 250px;
-  position: absolute;
+width: 100%;
+    max-width: 310px;
+    margin-top: 65px;
+
+  
 }
 .orgco {
       background: #fcd8b6;
+      background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(252,216,182,1) 100%);
     
 }
 .orgco h3 {
   color: #ce6800;
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;    letter-spacing: 1px;
+  
 }
-.orgco .poimg {
-    bottom: -94px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
+ 
 
 .charcoalg {
-  background: #eaeaea;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(234,234,234,1) 100%);
 }
 .charcoalg h3 {
   color:rgb(68, 70, 76);
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;
+  
+  
 }
-.charcoalg .poimg {
-    bottom: -74px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
+ 
 .blueberryg {
-  background: #bdd7ff;
+ background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(189,215,255,1) 100%);
 }
 .blueberryg h3 {
   color:rgb(28 79 173);
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;
+   
 }
-.blueberryg .poimg {
-    bottom: -74px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
+ 
 .saffrong {
-  background: #dfbdff;
+ background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(223,189,255,1) 100%);
 }
 .saffrong h3 {
   color:rgb(178 36 231);
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;
+  
 }
-.saffrong .poimg {
-    bottom: -74px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
-}
+ 
 .roseg {
-background: #ffc5cb;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,197,203,1) 100%);
 }
 .roseg h3 {
   color:rgb(173 28 28);
   font-family: 'Playfair Display', serif;
   font-size: 48px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;
+   
 }
-.roseg .poimg {
-    bottom: -74px;
-    left: 0;
-    right: auto;
-    height: auto;
-    width: 100%;
+.pineple {
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,216,95,1) 100%);
 }
+.pineple h3 {
+  color: rgb(80 67 0);
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+   
+}
+.cherry {
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,197,203,1) 100%);
+}
+.cherry h3 {
+  color:rgb(173 28 28);
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+   
+}
+
+ 
 .womenimage {
     width: auto;
     height: 100%;
