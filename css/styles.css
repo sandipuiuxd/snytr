@@ -631,6 +631,12 @@ ul.sociallinkshare li.fbo{
 .bg-darkbmg {
   background-color:  #f3f0db !important;
 }
+.bg-bodywash {
+  background-color: #dbedf3 !important;
+}
+.bg-other{
+  background-color: #e2dbf3 !important;
+}
 .bg-white {
   background: #ffffff !important;
 }
