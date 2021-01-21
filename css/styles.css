@@ -17,19 +17,19 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: 300;
-  color: #3D4351; }
+  color: #003318; }
 
 h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #3D4351; }
+  color: #003318; }
 
 h4 {
   font-size: 18px; }
 
 h5 {
   font-size: 15px;font-family: 'Playfair Display', serif;
-  color: #3D4351;
+  color: #003318;
   text-transform: uppercase;
   font-weight: 500; }
 
@@ -55,6 +55,10 @@ h5 {
 .btn-white:hover, .btn-white:focus {
   color: #FF5274;
   border-color: #FF5274; }
+    .btn:hover, .btn:focus {
+  color: #fff;
+    border-color: #63d100;
+    background-color: #63d100; }
 
 .btn-fill {
   color: #fff;
@@ -371,22 +375,44 @@ Hero
     width: 100%;
     height: auto;
     padding: 15px;
-    border: 2px solid #cacaca;
+    border: 1px solid rgb(202 202 202 / 46%);
 }
 .imgboxc img {
-  height: 600px;
-    object-fit: cover;
+ height: 600px;
+    object-fit: contain;
     object-position: center;
     width: 100%;
-  
 }
 .prductdetail h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 46px;
+    font-size: 58px;
     font-weight: 800;
     letter-spacing: 1px;
-    color: #003318;
+    margin-top: 0px;
     margin-bottom: 18px;
+    color: #63d100;
+    line-height: 38px;
+    margin-left: -5px;
+}
+.prductdetail h6 {
+   font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    margin-bottom: 24px;
+    color: #104012;
+    font-family: "Open Sans", sans-serif;
+}
+.sociallinkshare svg path {
+  fill:  #63d100;
+}
+.smalltext {
+        font-size: 24px;
+    color: #003318;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-left: 2px;
 }
 .prductdetail {
     width: 100%;
@@ -481,7 +507,7 @@ ul.sociallinkshare li.fbo{
     margin-top: -12px;
 }
 .productsmoredetial {
-    padding: 120px 0 150px;
+    padding: 80px 0 150px;
     width: 100%;
     display: inline-block;
 }
@@ -651,6 +677,17 @@ ul.sociallinkshare li.fbo{
     margin: 1%;
     padding: 0px;
     overflow: hidden;
+}
+.threebox:hover {
+  cursor: pointer;
+}
+.threebox:hover .btnstyle  {
+    background: #003318;
+    width: 100%;
+    color: #fff;
+}
+.pb0{
+  padding-bottom: 0px !important
 }
 .imgbox {
         
@@ -963,11 +1000,10 @@ header {
       display: inline; }
       header ul.primary-nav li a {
         color: #fff;
-        padding-right: 25px; }
+        padding-right: 15px; }
         header ul.primary-nav li a:hover {
-          color: #FF5274; }
-      header ul.primary-nav li:last-child a {
-        padding-right: 0px; }
+          color: #fff; }
+      
   header ul.member-actions li {
     display: inline; }
     header ul.member-actions li a {
@@ -1115,7 +1151,7 @@ width: 100%;
 .feature-list h3 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #3D4351;font-family: 'Playfair Display', serif;
+    color: #003318;font-family: 'Playfair Display', serif;
 }
 
 .feature-list p {
@@ -1262,7 +1298,7 @@ padding-top: 150px;
   .blog figcaption a.blog-post-title {
     color: rgba(28, 54, 83, 0.6); }
   .blog figcaption a.blog-post-title:hover, .blog figcaption a.blog-post-title:focus {
-    color: #3D4351; }
+    color: #003318; }
 
 /* ==========================================================================
 .testimonial-slider
@@ -1402,8 +1438,10 @@ To top
   padding-bottom: 60px;
 }
 .instapost {
-  width: 100%;
-  display: inline-block;
+    width: 100%;
+    display: inline-block;
+    line-height: 0;
+    margin-bottom: -5px;
 }
 .instabutton {
       padding: 16px 45px;
@@ -1502,4 +1540,3 @@ footer {
       margin-top: 20px; }
   footer .footer-links {
     margin: 120px 0 120px 0; }
- 

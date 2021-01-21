@@ -78,6 +78,13 @@ header .header-nav {
 }
 /* Responsive nav kicks in */
 @media screen and (max-width:991px) {
+	.imgboxc {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border: 1px solid rgb(202 202 202 / 46%);
+    margin-bottom: 40px;
+}
 	 
 .blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3, .pineple h3, .cherry h3  {
      
@@ -451,17 +458,7 @@ header .header-nav {
     margin-bottom: 0px;
     margin-top: 20px;
 }
-.ingredintintop {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    float: left;
-    margin: 15px 1%;
-    text-align: center;
-    height: 190px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-} 
+  
  
 
 		.roundanimation {
@@ -580,5 +577,53 @@ header .header-nav {
 	}
 
 	}
-	@media screen and (max-width:320px) {
+	@media screen and (max-width:768px) {
+
+		.ingredintintop {
+    position: relative;
+    display: inline-block;
+    width: 46%;
+    float: none;
+    margin: 15px 1%;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.blueberryg h3, .roseg h3, .saffrong h3, .charcoalg h3, .orgco h3, .pineple h3, .cherry h3 {
+    font-size: 38px;
+    text-align: center;
+    padding-left: 0px;
+    padding-top:  0px;
+}
+.imgbox {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    z-index: 9;
+    left: 0px;
+    text-align: center;
+}
+.soapimg {
+    width: 100%;
+    max-width: 340px;
+}
 	}
+	@media screen and (max-width: 560px) {
+		.ingredintintop {
+    position: relative;
+    display: inline-block;
+    width:100%;
+    float: none;
+    margin: 15px 0%;
+    text-align: center;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+	}
+	.to-top {
+    height: 60px;
+    background-color: #ffffff;
+    display: none;
+}
