@@ -385,7 +385,18 @@ Hero
 }
 .prductdetail h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 58px;
+    font-size:44px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+    color: #63d100;
+    line-height: 32px;
+    margin-left: -5px;
+}
+.prductdetail h2.bigtitle {
+      font-family: 'Playfair Display', serif;
+    font-size: 40px;
     font-weight: 800;
     letter-spacing: 1px;
     margin-top: 0px;
@@ -407,7 +418,7 @@ Hero
   fill:  #63d100;
 }
 .smalltext {
-        font-size: 24px;
+        font-size: 18px;
     color: #003318;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -628,12 +639,14 @@ ul.sociallinkshare li.fbo{
   font-size: 6vw;text-shadow: 1px 1px 29px rgba(0, 0, 0, 0.2);
 }
 .fullingr {
-      width: 100%;
+                 width: 100%;
     display: block;
-    max-width: 1660px;
+    max-width: 1380px;
     text-align: center;
     margin: auto;
-    overflow: hidden;
+    height: auto;
+    overflow: auto;
+    padding-bottom: 15px;
 }
 .ingredintintop {
     position: relative;
@@ -667,8 +680,8 @@ ul.sociallinkshare li.fbo{
   background: #ffffff !important;
 }
 .threebox {
-        width: 23%;
-    float: left;
+    width: 23%;
+    float: none;
     display: inline-block;
     position: relative;
     height: auto;
@@ -677,9 +690,19 @@ ul.sociallinkshare li.fbo{
     margin: 1%;
     padding: 0px;
     overflow: hidden;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
+.recent .threebox {
+    width: 22%;}
 .threebox:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0 0 70px 8px rgba(0,0,0,.32);
+    -moz-box-shadow: 0 0 70px 8px rgba(0,0,0,.32);
+    box-shadow: 0 10px 20px 1px rgba(0,0,0,.1);
 }
 .threebox:hover .btnstyle  {
     background: #003318;
@@ -709,9 +732,10 @@ padding: 5px 25px;
 }
 .productnames {
 text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;position: relative;
     z-index: 99;
+    margin-bottom: 0px;
 }
 .btnbox {
 width: 100%;
@@ -762,7 +786,7 @@ display: inline-block;
 .bigname {
      font-family: 'Playfair Display', serif;
     color: #003318;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 800;    letter-spacing: 1px;
 }
 .poimg {
@@ -1457,6 +1481,43 @@ To top
 }
 .instapost ul li img {
   width:100%; 
+}
+.wepr {
+  width: 100%;
+  height: auto;
+  
+  display: inline-block;
+  float: left;
+  padding: 10px 0;
+}
+.weprbox {
+ width:100%;
+  height: auto;
+  
+  display: inline-block;
+  float: left;
+      margin: 5px 0;  
+}
+.weight {
+          background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #63d100;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #003318;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+.price {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #63d100;
+    margin-right: 20px;
+    font-weight: 700;
+    color: #003318;
+    letter-spacing: 0.5px;
 }
 /* ==========================================================================
 Footer
